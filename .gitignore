@@ -43,3 +43,57 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter/Dart
+.dart_tool/
+.packages
+.buildlog/
+/pubspec.lock
+.flutter-plugins
+.flutter-plugins-dependencies
+/.metadata
+/.dart_tool/
+
+# Android
+android/.gradle
+android/app/build/
+android/app/.cxx/
+android/app/*.iml
+android/*.iml
+android/.idea/
+android/app/src/main/java/**/R.java
+android/app/src/main/jniLibs/
+
+# iOS
+ios/Pods/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/Debug.xcconfig
+ios/Flutter/Release.xcconfig
+ios/Runner.xcworkspace
+ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS
+macos/Pods/
+macos/.symlinks/
+macos/Flutter/Debug.xcconfig
+macos/Flutter/Release.xcconfig
+
+# Web
+web/.dart_tool/
+web/build/
+web/generated_plugin_registrant.dart
+
+# VS Code
+.vscode/
+.history/
+
+# IDE
+.idea/
+*.iml
+
+# Misc
+*.log
+*.tmp
